@@ -107,3 +107,23 @@ footer {
     width: 56%
 }
 
+/* Styling for div that contains the line divs and the New to Amazon text */
+.lines {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Creating the line divs that surround the New to Amazon text */
+.line {
+    width: 130px;
+    height: 1px;
+    background-color: lightgrey;
+}
+
+/* Add a bit of margin between the text and the lines */
+.new {
+    margin-left: 4px;
+    margin-right: 4px;
+}
